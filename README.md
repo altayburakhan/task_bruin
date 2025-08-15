@@ -1,14 +1,5 @@
 # Task Bruin - Data Pipeline project
 
-
-## 🐳 Docker Services
-
-### MongoDB
-- **Port**: 27017
-- **Database**: testDB
-- **Collections**: users, orders
-- **Data**: Sample test data included
-
 ## 📊 Pipeline Assets
 
 ### Data Ingestion
