@@ -96,3 +96,6 @@ task_bruin.db
 *.zip
 *.rar
 *.7z
+
+logs/runs
+logs/*.log
