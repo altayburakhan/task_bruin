@@ -6,4 +6,4 @@ default_connections:
   mongo: "localMongo"
 
 # Pipeline configuration
-# Note: Connection details are defined in .bruin.yml
+
