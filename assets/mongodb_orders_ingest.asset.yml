@@ -1,0 +1,11 @@
+name: public.mongo_orders
+type: ingestr
+connection: duckdb_output
+
+parameters:
+  source_connection: localMongo
+  source_table: 'testDB.orders'
+  destination: duckdb
+
+materialization:
+  type: table

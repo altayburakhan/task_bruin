@@ -1,0 +1,12 @@
+name: public.gsheets
+type: ingestr
+connection: duckdb_output
+
+parameters:
+  source_connection: my-gsheets
+  source_table: '1B9nZogp3qPJ-nv-NakIAZCBO_W3zMoEVIN3bQA0nD28.gsheets_test_data'
+  destination: duckdb
+  
+
+materialization:
+  type: table

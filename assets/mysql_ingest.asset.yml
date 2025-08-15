@@ -1,0 +1,24 @@
+name: public.mysql_users
+type: ingestr
+connection: duckdb_output
+
+parameters:
+  source_connection: new-mysql
+  source_table: 'railway.users'
+  destination: duckdb
+
+materialization:
+  type: table
+
+---
+name: public.mysql_orders
+type: ingestr
+connection: duckdb_output
+
+parameters:
+  source_connection: new-mysql
+  source_table: 'railway.orders'
+  destination: duckdb
+
+materialization:
+  type: table

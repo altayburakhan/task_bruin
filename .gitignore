@@ -1,0 +1,98 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Credentials and API Keys
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+.bruin.yml
+.bruin.yaml
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+volumes/
+data/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+*.duckdb
+mongodb_data/
+task_bruin.db
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup and Archive
+*.bak
+*.backup
+*.old
+*.orig
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z

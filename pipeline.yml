@@ -1,0 +1,9 @@
+name: task_bruin_pipeline
+default_connections:
+  duckdb: "duckdb_output"
+  mysql: "new-mysql"
+  gsheets: "my-gsheets"
+  mongo: "localMongo"
+
+# Pipeline configuration
+# Note: Connection details are defined in .bruin.yml
